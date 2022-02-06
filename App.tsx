@@ -50,8 +50,7 @@ const App = () => {
         multiline={true}
         style={styles.input}
         onChangeText={val => handleChange(val)}
-        value={limit}
-      />
+       />
 
       <Text style={styles.line}>{char_left}  Character Remaining </Text>
     </View>
